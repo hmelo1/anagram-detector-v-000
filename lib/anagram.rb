@@ -1,5 +1,5 @@
 # Your code goes here!
-class Anagram
+def Anagram
   attr_accessor :word
 
   def initialize(word)
@@ -7,6 +7,7 @@ class Anagram
   end
 
   def match(words)
-    puts "#{words}"
+    list_of_words = words.split(' ')
+    puts "#{word},#{list_of_words}"
   end
 end
