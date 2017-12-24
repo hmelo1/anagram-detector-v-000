@@ -7,7 +7,6 @@ def Anagram
   end
 
   def match(words)
-    list_of_words = words.split(' ')
     puts "#{word},#{list_of_words}"
   end
 end
