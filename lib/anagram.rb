@@ -6,7 +6,8 @@ def Anagram
     @word = word
   end
 
-  def match
+  def match(words)
+    list_of_words = words.split(' ')
 
   end
 end
