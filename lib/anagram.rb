@@ -8,5 +8,6 @@ class Anagram
 
   def match(words)
     puts "#{word},#{words}"
+    result = []
   end
 end
