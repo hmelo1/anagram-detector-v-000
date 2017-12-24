@@ -9,6 +9,6 @@ class Anagram
   def match(words)
     puts "#{word},#{words}"
     result = []
-    words.detect {|reversed_word| reversed_word.chars.sort == word.chars.sort}
+    result = words.detect {|reversed_word| reversed_word.chars.sort == word.chars.sort}
   end
 end
