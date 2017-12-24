@@ -7,6 +7,6 @@ def Anagram
   end
 
   def match(words)
-
+    puts "#{words}"
   end
 end
